@@ -1,0 +1,8 @@
+# Ignore dataset split directory
+Dataset_split/
+
+# Ignore logs directory and subdirectories
+logs/
+
+# Ignore virtual environment directory
+venv/
