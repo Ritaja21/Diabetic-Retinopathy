@@ -6,3 +6,7 @@ logs/
 
 # Ignore virtual environment directory
 venv/
+test.tfrecord
+train.tfrecord
+val.tfrecord
+accuracy_loss_plot.png
