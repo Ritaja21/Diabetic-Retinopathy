@@ -10,3 +10,4 @@ test.tfrecord
 train.tfrecord
 val.tfrecord
 accuracy_loss_plot.png
+EfficientNet_model.keras
