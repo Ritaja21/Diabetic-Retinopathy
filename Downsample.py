@@ -4,12 +4,12 @@ from shutil import copy2  # for copying files
 from pathlib import Path
 
 # Define paths
-base_dir = "/media/ritika/BAB4DC86B4DC4713/ICDCIT/Diabetic Retinopathy/Diabetic-Retinopathy/Dataset_split/train"  
+base_dir = "/media/mydisk/ICDCIT/Diabetic Retinopathy/Dataset_split/train"  
 class_to_downsample = "0_preprocessed"
 output_dir = f"{base_dir}/downsampled"  # Output directory for downsampled images
 
 # Set the target number of images to downsample
-target_class_size = 4000  
+target_class_size = 2000  
 
 # Path for the class you want to downsample
 class_path = os.path.join(base_dir, class_to_downsample)
