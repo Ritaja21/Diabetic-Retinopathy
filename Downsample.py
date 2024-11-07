@@ -5,11 +5,11 @@ from pathlib import Path
 
 # Define paths
 base_dir = "/media/mydisk/ICDCIT/Diabetic Retinopathy/Dataset_split/train"  
-class_to_downsample = "0_preprocessed"
+class_to_downsample = "2_preprocessed"
 output_dir = f"{base_dir}/downsampled"  # Output directory for downsampled images
 
 # Set the target number of images to downsample
-target_class_size = 2000  
+target_class_size = 1500  
 
 # Path for the class you want to downsample
 class_path = os.path.join(base_dir, class_to_downsample)

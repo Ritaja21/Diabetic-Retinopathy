@@ -32,12 +32,12 @@ def create_tfrecord(data_dir, tfrecord_filename):
 if __name__ == "__main__":
 
     train_dir = "/media/mydisk/ICDCIT/Diabetic Retinopathy/Dataset_split/train"
-    test_dir = "/media/mydisk/ICDCIT/Diabetic Retinopathy/Dataset_split/test"
-    val_dir = "/media/mydisk/ICDCIT/Diabetic Retinopathy/Dataset_split/validation"
+    # test_dir = "/media/mydisk/ICDCIT/Diabetic Retinopathy/Dataset_split/test"
+    # val_dir = "/media/mydisk/ICDCIT/Diabetic Retinopathy/Dataset_split/validation"
 
     output_dir = "/media/ritika/mydisk/ICDCIT/Diabetic Retinopathy/TFRecords"  
 
     os.makedirs(output_dir, exist_ok=True)  # Ensure the directory exists
     create_tfrecord(train_dir, os.path.join(output_dir, 'train.tfrecord'))
-    create_tfrecord(val_dir, os.path.join(output_dir, 'val.tfrecord'))
-    create_tfrecord(test_dir, os.path.join(output_dir, 'test.tfrecord'))
+    # create_tfrecord(val_dir, os.path.join(output_dir, 'val.tfrecord'))
+    # create_tfrecord(test_dir, os.path.join(output_dir, 'test.tfrecord'))
