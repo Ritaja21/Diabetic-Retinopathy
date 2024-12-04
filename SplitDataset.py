@@ -3,8 +3,8 @@ import shutil
 from sklearn.model_selection import train_test_split
 
 # Define paths
-source_dir = "/media/ritika/BAB4DC86B4DC4713/ICDCIT/Dataset Preprocessed"  # The directory containing your class folders
-output_dir = "Dataset_split"         # The directory where train/test/validation will be stored
+source_dir = "/media/mydisk/ICDCIT/Splitdataset (Copy)"  # The directory containing your class folders
+output_dir = "/media/mydisk/ICDCIT/Split_subset"         # The directory where train/test/validation will be stored
 
 # Create directories for train, test, and validation
 train_dir = os.path.join(output_dir, 'train')
@@ -17,7 +17,7 @@ os.makedirs(val_dir, exist_ok=True)
 
 # Define the split ratios
 test_size = 0.2  # 20% for testing
-val_size = 0.1   # 10% for validation from the remaining training data
+val_size = 0.2   # 10% for validation from the remaining training data
 
 # Loop through each class directory
 for class_dir in os.listdir(source_dir):
