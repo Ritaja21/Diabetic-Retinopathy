@@ -1,0 +1,81 @@
+/* Patient profile styles */
+.patient-profile {
+    padding: 80px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: url('https://slidescorner.com/wp-content/uploads/2023/03/04-Medical-Soft-Green-Gradient-Pastel-Background-by-SlidesCorner.com_.jpg') no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #02181b;
+    text-align: center;
+    align-self: center;
+}
+
+/* Hide the actual file input */
+.hidden-file-input {
+    display: none;
+}
+
+/* Style the custom label */
+.custom-file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #04373d;
+    /* Button color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Add hover effect */
+.custom-file-label:hover {
+    background-color: #26c6da;
+    color: #02181b;
+    /* Darker shade for hover */
+}
+
+.patientprofile-button {
+    align-self: center;
+    padding: 15px 20px;
+    background-color: #04373d;
+    border-radius: 15px;
+    width: 30vh;
+    height: 10vh;
+    padding-top: 20px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 700;
+    border: none;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.patientprofile-button:hover {
+    background-color: #26c6da;
+    color: #02181b;
+    transform: scale(1.1);
+
+}
+
+.uploaded-image {
+    align-self: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.uploaded-image h2 {
+    margin-bottom: 30px;
+}
+
+
+.uploaded-img {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #04373d;
+    padding: 5px 0;
+}
+
+
+.bottom-bar p {
+    color: white;
+}

@@ -1,0 +1,88 @@
+.profile-update {
+    padding: 120px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: url('https://slidescorner.com/wp-content/uploads/2023/03/04-Medical-Soft-Green-Gradient-Pastel-Background-by-SlidesCorner.com_.jpg') no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #02181b;
+    text-align: center;
+    align-self: center;
+
+}
+
+
+
+.profile-update h1 {
+    font-weight: 700;
+}
+
+form {
+
+    padding: 5vh 10vh;
+    background: linear-gradient(to right, rgba(206, 243, 248, 0.395), #04373d);
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+label {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input,
+select {
+    padding: 2vh;
+    margin-bottom: 20px;
+    width: 50vh;
+    border-radius: 15px;
+    border: none;
+}
+
+
+select,
+option {
+    width: 50vh;
+}
+
+textarea {
+    width: 50vh;
+    border-radius: 15px;
+    height: 8vh;
+}
+
+textarea::placeholder {
+    color: black;
+    padding: 15px;
+}
+
+.submit {
+    align-self: center;
+    margin-top: 25px;
+    padding: 15px 20px;
+    background-color: #04373d;
+    border-radius: 15px;
+    width: 30vh;
+    height: 10vh;
+    padding-top: 20px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 700;
+    border: none;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #26c6da;
+    color: #02181b;
+    transform: scale(1.1);
+
+}

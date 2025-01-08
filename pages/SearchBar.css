@@ -1,0 +1,38 @@
+/* Search bar styles */
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 2vh;
+    font-size: 16px;
+
+}
+
+.search-bar input::placeholder {
+    color: black;
+}
+
+.search-bar button {
+    margin-top: 25px;
+    padding: 15px 20px;
+    background-color: #04373d;
+    border-radius: 15px;
+    width: 30vh;
+    height: 10vh;
+    padding-top: 20px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 700;
+    border: none;
+    font-size: 3vh;
+}
+
+.search-bar button:hover {
+    background-color: #26c6da;
+    color: #02181b;
+    transform: scale(1.1);
+}

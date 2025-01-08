@@ -1,0 +1,113 @@
+/* Dashboard container */
+.dashboard {
+    background: url('https://slidescorner.com/wp-content/uploads/2023/03/04-Medical-Soft-Green-Gradient-Pastel-Background-by-SlidesCorner.com_.jpg') no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #02181b;
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.dashboard-header {
+    align-self: center;
+    margin-top: 50px;
+    background-color: linear-gradient(135deg, #85bfe8, #003b6b);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 5vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    overflow: none;
+    gap: 10vh;
+}
+
+.dashboard-header .left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.dashboard-header .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right img {
+    height: 50vh;
+    border-radius: 15px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ffffff;
+}
+
+.dashboard .cta-button {
+    padding: 15px 20px;
+    background-color: #04373d;
+    border-radius: 15px;
+    width: 20vh;
+    height: 10vh;
+    padding-top: 20px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.dashboard .cta-button:hover {
+    background-color: #00A3A9;
+    color: #02181b;
+    transform: scale(1.1);
+
+}
+
+
+.cards-container {
+    margin-top: 10vh;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Card styles */
+.card {
+    background: linear-gradient(to right, rgba(206, 243, 248, 0.236), #04373d);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8vh 2vh;
+    width: 40vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+}
+
+.card h2 {
+    color: #02181b;
+    font-weight: 700;
+}
+
+.card .icon {
+    height: 50px;
+    width: 50px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #02181b;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
