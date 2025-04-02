@@ -18,8 +18,9 @@ Welcome to the **Diabetic Retinopathy Detection** project! This project leverage
 
 ## 📬 Contact
 For any inquiries, feel free to reach out:
-- 📧 Email: ritikabanerjee444@gmail.com, 22051004@gmail.com
+- 📧 Email: ritikabanerjee444@gmail.com, tonnitarafder2004@gmail.com
 - 📌 LinkedIn: https://www.linkedin.com/in/ritika-banerjee/ , https://www.linkedin.com/in/ritaja-tarafder-8b8a8b30b/
-- 🌐 Portfolio: https://ritikab.vercel.app/
+- 🌐 Portfolio: https://ritikab.vercel.app/  , https://my-portfolio-delta-brown-72.vercel.app/
+- 
 
 We’d love to connect and discuss how I can contribute. Looking forward to the opportunity!
